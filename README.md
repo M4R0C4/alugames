@@ -12,7 +12,6 @@ Essa é o resultado do projeto fictício pré-definido pela Alura, com o foco pa
   - [Construído com](#construído-com)
   - [O que aprendi](#o-que-aprendi)
 
-**Nota: Exclua esta nota e atualize o índice com base nas seções que você manter.**
 
 ## Visão Geral
 
