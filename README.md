@@ -1,5 +1,6 @@
 ## Alura | AluGames
-Essa é o resultado do projeto fictício pré-definido pela Alura, com o foco para prática de lógica e desenvolvimento utilizando JavaScript.
+Essa é o resultado do projeto do curso [Lógica de programação: praticando com desafios](https://cursos.alura.com.br/course/logica-programacao-praticando-desafios)
+desenvolvido pela Alura, com o foco para prática de lógica e desenvolvimento utilizando JavaScript.
 
 ## Índice
 
