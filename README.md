@@ -34,17 +34,18 @@ Com a estrutura HTML da página já pronto. Foi preciso apenas identificar as cl
 ### Construído com
 
 - JavaScript
-
+- TypeScript
+  
 ### O que aprendi
 
-Desenvolvi a habilidade de criar funções simples para manipulação do DOM, junto com condicionais
+Desenvolvi a habilidade de criar funções simples em Typescript para manipulação do DOM, junto com condicionais
 
-```javascript
-function alterarStatus(id) {
-    let game = document.getElementById(`game-${id}`);
-    let imagem = game.querySelector('.dashboard__item__img');
-    let botao = game.querySelector('.dashboard__item__button');
-    console.log(game.textContent);
+```typescript
+function alterarStatus(id: HTMLElement){
+    let jogo: HTMLElement = document.getElementById(`game-${id}`);
+    let imagem: HTMLElement = jogo.querySelector('.dashboard__item__img');
+    let botao: HTMLElement = jogo.querySelector('.dashboard__item__button');
+    
     if (imagem.classList.contains('dashboard__item__img--rented')) {
         imagem.classList.remove('dashboard__item__img--rented');
         botao.classList.remove('dashboard__item__button--return');
